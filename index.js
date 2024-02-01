@@ -12,7 +12,7 @@ bot.on('message', (msg) => {
   const chatId = msg.chat.id;
   const userMessage = msg.text;
 
-  axios.post('https://api.cloudflare.com/client/v4/accounts/{YOUR_ACCOUNT_ID}/ai/run/@cf/meta/llama-2-7b-chat-int8', {
+  axios.post('https://api.cloudflare.com/client/v4/accounts/3c65014970b0921061f9f245d760e2eb/ai/run/@cf/meta/llama-2-7b-chat-int8', {
     prompt: userMessage
   }, {
     headers: {
