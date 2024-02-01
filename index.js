@@ -1,8 +1,8 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
-const telegramToken = '{YOUR_TELEGRAM_TOKEN}';
-const cloudflareToken = '{YOUR_CLOUDFLARE_TOKEN}';
+const telegramToken = '6788722063:AAEm_UEtvlRTg1zXzOPgBQazK3U5ZTiYmkc';
+const cloudflareToken = 'lVMfE4w946QFdHLhrgix8s37mJYivOxB7MuW19yH';
 
 const bot = new TelegramBot(telegramToken, {polling: true});
 
